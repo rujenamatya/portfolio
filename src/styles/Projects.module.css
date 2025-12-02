@@ -1,0 +1,191 @@
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: var(--spacing-lg);
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: var(--spacing-lg);
+  margin-top: var(--spacing-lg);
+}
+
+.card {
+  background: var(--black-card);
+  border: 1px solid var(--black-light);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  transition: all var(--transition-normal);
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--gold-primary), var(--emerald-primary));
+  opacity: 0;
+  transition: opacity var(--transition-normal);
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  border-color: var(--gold-primary);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.3),
+    0 0 30px rgba(212, 175, 55, 0.1);
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.cardTitle {
+  margin-top: 0;
+  margin-bottom: var(--spacing-sm);
+  font-size: 1.4rem;
+}
+
+.role {
+  font-size: 0.85rem;
+  color: var(--emerald-primary);
+  font-weight: 600;
+  margin-bottom: var(--spacing-md);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.description {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: var(--spacing-md);
+  font-size: 0.95rem;
+}
+
+.techSection {
+  margin-top: var(--spacing-md);
+}
+
+.techLabel {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: block;
+  margin-bottom: var(--spacing-sm);
+}
+
+.techList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+}
+
+.techBadge {
+  background: var(--gold-muted);
+  color: var(--gold-primary);
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: var(--radius-xl);
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  transition: all var(--transition-fast);
+}
+
+.techBadge:hover {
+  background: rgba(212, 175, 55, 0.25);
+  border-color: var(--gold-primary);
+}
+
+.learningsSection {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--black-light);
+}
+
+.learningsLabel {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: block;
+  margin-bottom: var(--spacing-sm);
+}
+
+.learningsText {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.linksContainer {
+  margin-top: var(--spacing-lg);
+  display: flex;
+  gap: var(--spacing-sm);
+  flex-wrap: wrap;
+}
+
+.githubLink,
+.liveLink {
+  padding: var(--spacing-sm) var(--spacing-md);
+  text-decoration: none;
+  border-radius: var(--radius-md);
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all var(--transition-fast);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.githubLink {
+  background: var(--black-light);
+  color: var(--text-primary);
+  border: 1px solid var(--black-light);
+}
+
+.githubLink:hover {
+  background: var(--text-primary);
+  color: var(--black-deep);
+  border-color: var(--text-primary);
+}
+
+.liveLink {
+  background: linear-gradient(135deg, var(--emerald-primary), var(--emerald-dark));
+  color: var(--text-primary);
+  border: none;
+}
+
+.liveLink:hover {
+  box-shadow: 0 4px 15px rgba(46, 204, 113, 0.4);
+  transform: translateY(-1px);
+}
+
+.emptyState {
+  text-align: center;
+  color: var(--text-muted);
+  padding: var(--spacing-xl);
+  background: var(--black-card);
+  border-radius: var(--radius-lg);
+  border: 1px dashed var(--black-light);
+}

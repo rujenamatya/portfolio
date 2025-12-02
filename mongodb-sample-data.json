@@ -1,0 +1,123 @@
+{
+  "my_projects": [
+    {
+      "title": "Course Notes App",
+      "description": "Web application designed to empower students by providing an intuitive platform to seamlessly view, create, and manage detailed notes for any course module or assignment, fostering effective study habits and enhancing collaboration.",
+      "role": "Full Stack Developer",
+      "technologyUsed": ["React", "Node.js", "MongoDB", "Render", "GitHub"],
+      "links": {
+        "github": "https://github.com/ramaty01/course-management",
+        "live": "https://github.com/ramaty01/course-management-client"
+      },
+      "learnings": "Learned about full stack development, RESTful API design, database management with MongoDB, and deployment on Render."
+    },
+    {
+      "title": "Course Management App",
+      "description": "Course Management Java application using creational, structural and behavioral patterns to manage courses, students, and professors in a computer science department.",
+      "role": "Backend Developer",
+      "technologyUsed": ["Java", "Draw.io", "UML"],
+      "links": {
+        "github": "",
+        "live": ""
+      },
+      "learnings": "Gained experience in software design patterns, object-oriented programming principles, and UML diagramming for system architecture."
+    },
+    {
+      "title": "World Cup Predictor",
+      "description": "Comparing machine learning models like logistic regression, decision trees, and neural networks to predict the outcomes of World Cup matches based on historical data and team statistics.",
+      "role": "Data Scientist",
+      "technologyUsed": ["Python", "Numpy", "Pandas", "Scikit-learn"],
+      "links": {
+        "github": "",
+        "live": ""
+      },
+      "learnings": "Focused on data preprocessing, feature engineering, and model evaluation techniques."
+    },
+    {
+      "title": "rGREP",
+      "description": "Command line utility tool like GREP for searching plain-text data and analysis",
+      "role": "Developer",
+      "technologyUsed": ["Python", "argparse", "unittest"],
+      "links": {
+        "github": "",
+        "live": ""
+      },
+      "learnings": "Explored file handling, regular expressions, and command-line argument parsing in Python."
+    },
+    {
+      "title": "Textbook Exchange Network",
+      "description": "Non-profit software to run student-to-student exchanges that facilitates the communication between buyers and sellers",
+      "role": "Full Stack Developer",
+      "technologyUsed": ["Node.js", "Django", "MongoDB", "React"],
+      "links": {
+        "github": "",
+        "live": "https://app.textbookexchangenetwork.com/"
+      },
+      "learnings": "Developed skills in full stack web development, user authentication, and database schema design."
+    },
+    {
+      "title": "GroundWork Somerville",
+      "description": "Website to buy and sell produce to the local market for a non-profit organization",
+      "role": "Full Stack Developer",
+      "technologyUsed": ["Node.js", "Django", "MongoDB", "React"],
+      "links": {
+        "github": "",
+        "live": ""
+      },
+      "learnings": "Developed skills in full stack web development, user authentication, and database schema design."
+    },
+    {
+      "title": "Ontology in Metabolomics",
+      "description": "Research project focused on developing ontologies for metabolomics data to improve data integration and analysis.",
+      "role": "Researcher",
+      "technologyUsed": ["Python", "OWL"],
+      "links": {
+        "github": "",
+        "live": ""
+      },
+      "learnings": "Gained experience in semantic web technologies, ontology development, and data integration."
+    },
+    {
+      "title": "Tufts Rides",
+      "description": "Website to show live shuttle locations and estimated arrival times for Tufts University campus shuttles using real-time GPS data.",
+      "role": "Full Stack Developer",
+      "technologyUsed": ["React", "MapBox API", "Node.js", "MongoDB"],
+      "links": {
+        "github": "",
+        "live": ""
+      },
+      "learnings": "Learned about integrating third-party APIs, real-time data handling, and geospatial mapping."
+    },
+    {
+      "title": "JumboCal",
+      "description": "Designed website that recommends available food on campus according to daily calorie needs and tracks nutritional intake for students.",
+      "role": "Frontend Developer",
+      "technologyUsed": ["HTML", "CSS", "JavaScript", "RESTful APIs"],
+      "links": {
+        "github": "",
+        "live": ""
+      },
+      "learnings": "Learned about responsive web design, user experience principles, and client-side scripting."
+    },
+    {
+      "title": "Hole Foods",
+      "description": "Website for donut shop for Jquery and AJAX project.",
+      "role": "Frontend Developer",
+      "technologyUsed": ["HTML", "CSS", "JavaScript", "jQuery", "AJAX"],
+      "links": {
+        "github": "",
+        "live": ""
+      },
+      "learnings": "Gained experience in asynchronous data loading, DOM manipulation, and enhancing user interactions."
+    }
+  ],
+  "form_submissions": [
+    {
+      "name": "John Smith",
+      "email": "john.smith@example.com",
+      "message": "Hi! I'm interested in collaborating on a web development project. Would love to discuss potential opportunities.",
+      "submittedAt": "2025-11-15T10:30:00Z"
+    }
+  ]
+}
+

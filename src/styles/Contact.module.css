@@ -1,0 +1,37 @@
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: var(--spacing-lg);
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+}
+
+.contactInfo {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-xl);
+  margin-bottom: var(--spacing-xl);
+  flex-wrap: wrap;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  color: var(--text-secondary);
+}
+
+.contactIcon {
+  color: var(--gold-primary);
+  font-size: 1.2rem;
+}

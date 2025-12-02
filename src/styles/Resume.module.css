@@ -1,0 +1,64 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: var(--spacing-lg);
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.downloadLink {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-md) var(--spacing-lg);
+  background: linear-gradient(135deg, var(--gold-primary), var(--gold-dark));
+  color: var(--black-deep);
+  text-decoration: none;
+  border-radius: var(--radius-lg);
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: var(--spacing-lg);
+  transition: all var(--transition-normal);
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+}
+
+.downloadLink:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.5);
+  color: var(--black-deep);
+}
+
+.downloadIcon {
+  font-size: 1.2rem;
+}
+
+.preview {
+  width: 100%;
+  height: 700px;
+  border: none;
+  margin-top: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  background: var(--black-card);
+  box-shadow: 
+    0 10px 40px rgba(0, 0, 0, 0.3),
+    inset 0 0 0 1px var(--black-light);
+}
+
+.previewContainer {
+  position: relative;
+}
+
+.previewOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, transparent 90%, var(--black-primary) 100%);
+  pointer-events: none;
+  border-radius: var(--radius-lg);
+}

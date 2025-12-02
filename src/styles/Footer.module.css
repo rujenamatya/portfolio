@@ -1,0 +1,13 @@
+.footer {
+  padding: var(--spacing-lg) var(--spacing-xl);
+  text-align: center;
+  background: linear-gradient(180deg, var(--black-primary) 0%, var(--black-deep) 100%);
+  border-top: 1px solid var(--black-light);
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  letter-spacing: 0.3px;
+}
+
+.footer span {
+  color: var(--gold-primary);
+}

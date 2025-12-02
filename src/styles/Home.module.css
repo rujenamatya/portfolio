@@ -130,3 +130,34 @@
   background: var(--emerald-muted);
   transform: translateY(-2px);
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: var(--spacing-lg) var(--spacing-md);
+    background-attachment: scroll;
+  }
+  .heroImage {
+    width: 140px;
+    height: 140px;
+  }
+  .name { font-size: 2.25rem; }
+  .tagline { font-size: 1.1rem; }
+  .ctaContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .ctaButton {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroImage {
+    width: 120px;
+    height: 120px;
+  }
+  .name { font-size: 1.75rem; }
+  .tagline { font-size: 1rem; }
+}

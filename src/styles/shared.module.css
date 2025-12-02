@@ -220,3 +220,26 @@
   color: var(--emerald-primary);
   border: 1px solid rgba(46, 204, 113, 0.3);
 }
+
+@media (max-width: 768px) {
+  .formContainer {
+    padding: var(--spacing-lg);
+    margin: var(--spacing-md) auto;
+  }
+  .input, .textarea {
+    padding: var(--spacing-sm);
+    font-size: 0.95rem;
+  }
+  .button {
+    padding: var(--spacing-sm) var(--spacing-lg);
+    font-size: 0.95rem;
+  }
+  .card { padding: var(--spacing-md); }
+}
+
+@media (max-width: 480px) {
+  .formContainer { padding: var(--spacing-md); }
+  .button { width: 100%; }
+  .input, .textarea { font-size: 0.9rem; }
+  .subtitle { font-size: 1rem; }
+}

@@ -126,3 +126,22 @@ h2 {
 .emerald-glow {
   box-shadow: 0 0 20px rgba(46, 204, 113, 0.3);
 }
+
+@media (max-width: 768px) {
+  html { font-size: 14px; }
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
+  :root {
+    --spacing-xl: 24px;
+    --spacing-lg: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.75rem; }
+  h2 { font-size: 1.25rem; }
+  :root {
+    --spacing-xl: 16px;
+    --spacing-lg: 12px;
+  }
+}

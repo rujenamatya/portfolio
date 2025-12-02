@@ -189,3 +189,22 @@
   border-radius: var(--radius-lg);
   border: 1px dashed var(--black-light);
 }
+
+@media (max-width: 768px) {
+  .container { padding: var(--spacing-md); }
+  .grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+  .card { padding: var(--spacing-md); }
+  .cardTitle { font-size: 1.25rem; }
+}
+
+@media (max-width: 480px) {
+  .intro { font-size: 1rem; }
+  .techList { gap: var(--spacing-xs); }
+  .techBadge {
+    font-size: 0.75rem;
+    padding: var(--spacing-xs) var(--spacing-sm);
+  }
+}

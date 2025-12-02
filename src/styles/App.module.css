@@ -16,3 +16,16 @@
     transform: translateY(0);
   }
 }
+
+@media (max-width: 768px) {
+  .main {
+    padding: var(--spacing-md);
+    min-height: calc(100vh - 140px);
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    padding: var(--spacing-sm);
+  }
+}

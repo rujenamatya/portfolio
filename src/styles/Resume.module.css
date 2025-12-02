@@ -62,3 +62,17 @@
   pointer-events: none;
   border-radius: var(--radius-lg);
 }
+
+@media (max-width: 768px) {
+  .container { padding: var(--spacing-md); }
+  .preview { height: 500px; }
+  .downloadLink {
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .preview { height: 400px; }
+  .downloadLink { width: 100%; justify-content: center; }
+}

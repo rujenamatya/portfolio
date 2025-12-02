@@ -72,3 +72,19 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 768px) {
+  .container { padding: var(--spacing-md); }
+  .content {
+    padding: var(--spacing-lg);
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    padding: var(--spacing-md);
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+}

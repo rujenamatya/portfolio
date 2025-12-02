@@ -1,4 +1,4 @@
-const API_BASE_URL = process.env.NODE_ENV === 'production' ? "https://portfolio-api.onrender.com" : "http://localhost:3000";
+const API_BASE_URL = process.env.NODE_ENV === 'production' ? "https://portfolio-j6x7.onrender.com" : "http://localhost:3000";
 
 /**
  * Fetches all projects from the backend API

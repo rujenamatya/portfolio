@@ -8,6 +8,9 @@
   top: 0;
   z-index: 1000;
   backdrop-filter: blur(10px);
+  min-height: 73px;
+  height: 73px;
+  contain: layout style paint;
 }
 
 .nav {
@@ -59,7 +62,11 @@
 }
 
 @media (max-width: 768px) {
-  .header { padding: var(--spacing-md) var(--spacing-lg); }
+  .header { 
+    padding: var(--spacing-md) var(--spacing-lg); 
+    min-height: 60px;
+    height: auto;
+  }
   .nav {
     gap: var(--spacing-md);
     flex-wrap: wrap;

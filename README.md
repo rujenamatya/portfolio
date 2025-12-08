@@ -27,8 +27,8 @@ CS601_PROJECT_AMATYA/
 ├── public/
 │   ├── favicon.ico
 │   ├── logo.svg
-│   ├── bg.png
-│   ├── headshot.png
+│   ├── bg.webp
+│   ├── headshot.webp
 │   ├── resume.pdf
 │   └── GeoPopup.js                
 ├── src/                           
@@ -78,9 +78,9 @@ CS601_PROJECT_AMATYA/
    ```bash
    npm install
    ```
-4. Create a `.env` file in the root directory with your MongoDB connection string:
+4. Create a `.env` file in the root directory with your MongoDB connection string. It's best to run it through the hosted URL otherwise you'd have to create a mongoDB cluster. If any issue, I can submit my personal username and password:
    ```
-   MONGODB_URI=your_mongodb_connection_string
+   MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.xcavowl.mongodb.net/?appName=Cluster0
    PORT=3000
    NODE_ENV=development
    ```

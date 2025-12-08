@@ -22,7 +22,7 @@ export default function Home() {
       <div className={styles.backgroundOverlay}></div>
       <div className={styles.heroSection}>
         <img 
-          src="/headshot.png" 
+          src="/headshot.webp" 
           alt="Rujen Amatya" 
           className={styles.heroImage}
         />

@@ -65,7 +65,7 @@ CS601_PROJECT_AMATYA/
 ## How to Use
 
 ### Prerequisites
-- Node.js (v14 or higher)
+- Node.js (v22 or higher, you can use nvm too)
 - MongoDB Atlas account or local MongoDB installation
 - npm or yarn package manager
 

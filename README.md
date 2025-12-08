@@ -21,6 +21,7 @@ CS601_PROJECT_AMATYA/
 ├── server.js
 ├── package.json
 ├── tsconfig.json
+├── vercel.json
 ├── mongodb-sample-data.json
 ├── README.md
 ├── .gitignore
